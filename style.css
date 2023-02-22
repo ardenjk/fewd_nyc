@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.navi {
+	text-align: right;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	background-color: #B1F994;
+}
+
+.navi li{
+	display: inline;
+	margin-right: 30px;
+}
+
+.navi li a {
+	text-decoration: none;
+	color: black; /* sets from blue to black */
+	font-family: 'Gloock', serif;
+	font-size: 20px;
+
+}
+
+.navi li a.active {
+	text-decoration: underline;
+	color:#277707;
+}
+
+.home-image{
+	display: block;
+	margin:auto;
+	width: 100%;
+}
+
+.stop-waste{
+	display: block;
+	margin:auto;
+	width: 700px;
+	padding-top: 30px;
+
+}
+
+.title{
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+	color:#0C681B;
+}
+
+.parent{
+	padding: 1rem 1rem;
+	vertical-align: middle;
+	magin: 1rem;
+	text-align: center;
+}
+
+.child{
+	display: inline-block;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 20px;
+	width: 45%;
+	height: 150px;
+	vertical-align: middle;
+	color:#583D15;
+}
+
+.map-image{
+	display: block;
+	padding-top: 60px;
+	margin-left: 50px;
+	width: 40%;
+	padding-bottom:100px;
+} 
+
+.text{
+	position:center;
+	color:#B1F994;
+	padding-top: 30px;
+	padding-left:30px;
+
+}
+
+.background{
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-image: url(nyc.jpeg);
+}
+
+.organization{
+	text-align:center;
+	color:black;
+	padding-top: 30px;
+	padding-left:30px;
+}
